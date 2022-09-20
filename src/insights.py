@@ -25,7 +25,7 @@ def get_unique_industries(path):
         if not row['industry'] in result and row['industry'] != '':
             result.append(row['industry'])
     return result
-
+ 
 
 def filter_by_industry(jobs, industry):
     """Filters a list of jobs by industry
